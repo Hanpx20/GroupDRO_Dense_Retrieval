@@ -9,7 +9,7 @@ python setup.py install
 cd src/openMatch
 pip install -e .
 ```
-Besides the requirements listed above, you also need to install a modified version of [Transformers](https://github.com/Veronicium/AnchorDR/tree/main/transformers) to adapt our [model]().
+Besides the requirements listed above, you also need to install a modified version of [Transformers](https://github.com/Veronicium/AnchorDR/tree/main/transformers) to adapt our [model](https://huggingface.co/HakHan/Web-DRO-DR).
 
 
 #### Embedding Model Training
@@ -71,3 +71,11 @@ export RESULT_DIR=$BASE_DIR/res
 You can refer to [OpenMatch Documentation](https://openmatch.readthedocs.io/en/latest/) for more information.
 
 `openmatch.driver.build_index` and `openmatch.driver.retrieve` can also be accelerated by distribution.
+
+#### Models
+
+You can download our model through [Huggingface Transformers](huggingface.co). 
+
+<b>[Web-DRO-DR(the final model)](https://huggingface.co/HakHan/Web-DRO-DR)</b>
+
+<b>[The Embedding Model](https://huggingface.co/HakHan/Web-Graph-Embedding)</b>
