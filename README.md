@@ -1,6 +1,25 @@
 ## GroupDRO Dense Retrieval
 ### Repository for paper: Distributionally Robust Unsupervised Dense Retrieval Training on Web Graphs
+
+
 #### The Code is Based on [OpenMatch](https://github.com/OpenMatch/OpenMatch).
+
+<div align="center">
+<h2>
+Enhancing Dense Retrievers' Robustness with Group-level Reweighting
+</h2>
+</div>
+
+<div align="center">
+<h3>
+, Zhenghao Liu, Zhiyuan Liu, Chenyan Xiong
+</h3>
+</div>
+
+
+<p align="center">
+<a href="https://arxiv.org/pdf/2310.16605" target="_blank">📃Paper</a> • <a href="https://huggingface.co/HakHan/Web-DRO-DR" target="_blank">🤗Models</a>
+</p>
 
 #### Installment
 ```
